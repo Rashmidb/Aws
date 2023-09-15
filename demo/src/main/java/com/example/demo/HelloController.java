@@ -10,7 +10,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-	System.out.println("Hello git");
+	System.out.println("Hello git Aws");
         LinkedList<Integer> list=new LinkedList<Integer>();
         return "Hello, World!";
 
